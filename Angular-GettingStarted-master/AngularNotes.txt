@@ -1,0 +1,14 @@
+Typescript is the programming language for Angular applications
+	Open source by Microsoft
+	Superset of Javascript
+		All typescript is valid javascript
+	Transpiles to plain Javascript
+	Strongly typed
+		everything has a type
+	Class-based object-orientation
+	
+Javascript language for the web (used by browsers)
+
+To set the nuget package feed, use command
+	npm configuration set registry https://url
+	NOTE: I had to do this since tutorial npm install was pulling from the Alogent feed
