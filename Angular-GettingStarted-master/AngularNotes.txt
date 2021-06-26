@@ -1,3 +1,5 @@
+================ MODULE 3 ================
+
 Typescript is the programming language for Angular applications
 	Open source by Microsoft
 	Superset of Javascript
@@ -12,3 +14,46 @@ Javascript language for the web (used by browsers)
 To set the nuget package feed, use command
 	npm configuration set registry https://url
 	NOTE: I had to do this since tutorial npm install was pulling from the Alogent feed
+	
+================ MODULE 4 ================
+
+Component
+	Template
+		View layout
+		Html
+		Bindings and directives
+	Class
+		Properties and methods (show hide logic)
+		Code supporting view
+		Typescript
+		Naming convention is to do {ClassName}Component
+		Root component is AppComponent
+		'export' keyword makes it available for use in other components (uses component name)
+		Body has
+			Properties (camel case, strong typed, optional default value)
+			Methods (camel case, verbs, actions, etc)
+	Metadata 
+		Extra data for Angular	
+		Defined with decorator
+		(template for class)
+		To define component, use decorator
+			Decorator is a function that adds metadata
+				implemented in typescript
+				limited to feature it decorates
+				prefixed with @	- example @Component
+				place immediately infront of feature, in this case above the class
+			Compoment should always have a template - this is where you can define layout
+	Importing
+		'import' statement to use external functions or classes
+		allows us to use exported members
+			from angular framework
+			other external JS libraries
+	Bootstrapping
+		for Angular Index.html contains
+			script tags referencing the app files that are transpiled into javascript
+			main page
+			SPA
+			looks in angular module to load components
+			
+================ MODULE 5 ================
+	
