@@ -56,4 +56,31 @@ Component
 			looks in angular module to load components
 			
 ================ MODULE 5 ================
+	For components, you can use templateURL and link to an html template file
+		Different from inlining the template in previous demo
+	Html backticks for multi line html
+	Setting selector in a component allows you to use component as a directive, (anywhere else in the app.)
+		For example - as part of another template, use selector as html tags
+		Resolved by angular module, root app module "AppModule"
+	Bindings for passing data and events between class and template
+		Use interpolation -> one way binding
+		For example, <h1>{{pageTitle}}</> -> template expression
+		Supports concatenation
+	Angular built in directives
+		Structural Directives (* marks it as structural)
+			*ngIf - used for optionally displayed content
+			*ngFor
+				for of
+					iterates over iterable objects
+					like foreach
+				for in
+					iterates over properties of an object
+					For example, will iterate index 1,2,3 for an array
+		Browser Module -> imported by AppModule -> imports the *ngIf/For	
+	<tr> table row
+	<td> table data
+================ MODULE 6 ================
+
+		
+	
 	
